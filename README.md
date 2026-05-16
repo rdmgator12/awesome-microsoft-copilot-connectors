@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Microsoft Copilot Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 134 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
+> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 128 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
 
-**Last updated:** May 16, 2026 | **Connectable services:** 134 | **Categories:** 16
+**Last updated:** May 16, 2026 | **Connectable services:** 128 | **Categories:** 16
 
 Microsoft 365 Copilot connectors extend the reach of Microsoft 365 Copilot and Microsoft Search by indexing external data into Microsoft Graph or querying it in real time through federated connectors. Once indexed, content from Confluence, Salesforce, ServiceNow, Google Drive, GitHub, and 100+ other services becomes retrievable inside Copilot, Microsoft Search, SharePoint, Teams, and the Microsoft 365 app.
 
@@ -62,7 +62,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Atlassian Confluence Server and Data Center](https://www.atlassian.com/software/confluence/enterprise/data-center) - Indexes on-premises Confluence spaces, pages, blogs, and attachments. **`M`** Partner: RheinInsights.
 - [Atlassian Jira Cloud](https://www.atlassian.com/software/jira) - Indexes Jira Cloud issues, projects, comments, attachments, and work logs. **`M`** Partners: BA Insight, RheinInsights, ServiceNow.
 - [Atlassian Jira Server and Data Center](https://www.atlassian.com/software/jira/enterprise/data-center) - Indexes on-premises Jira projects, issues, comments, and attachments. **`M`** Partners: BA Insight, RheinInsights, Accenture.
-- [Azure DevOps Wiki](https://azure.microsoft.com/en-us/products/devops/wiki) - Indexes wiki pages from Azure DevOps. **`M`**
+- [Azure DevOps Wiki](https://learn.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo) - Indexes wiki pages from Azure DevOps. **`M`**
 - [Azure DevOps Work Items](https://azure.microsoft.com/en-us/products/devops/boards) - Indexes work items from your Azure DevOps instance. **`M`**
 - [CB Insights](https://www.cbinsights.com) - Private-and-public company funding events, business relationships, and predictive outlook surfaced in Copilot. **`★ Certified`** Partner: CB Insights.
 - [Egnyte](https://www.egnyte.com) - Workflow automation and content integration with Egnyte. **`M`** Partner: BA Insight.
@@ -95,22 +95,19 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Content management systems
 
 - [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - AEM content crawled with document-level security and metadata extraction. **`M`** *(preview)* Partner: Accenture.
-- [Bentley AssetWise](https://www.bentley.com/software/assetwise) - AssetWise asset-lifecycle content surfaced in a consolidated Microsoft Search index. Partner: BA Insight.
+- [Bentley AssetWise](https://www.bentley.com/en/products/brands/assetwise) - Asset-lifecycle content surfaced in a consolidated Microsoft Search index. Partner: BA Insight.
 - [Coda Enterprise](https://coda.io) - Workflow management and team collaboration via Coda. **`M`**
-- [Confluence Cloud](https://www.atlassian.com/software/confluence/cloud) - Cloud-hosted Confluence pages and blogs indexed for Microsoft Search. **`M`**
-- [Confluence On-premises](https://www.atlassian.com/software/confluence/download) - Confluence pages from server or data center deployments. **`M`**
 - [CuadraSTAR](https://lucidea.com/cuadrastar/) - Library and special-collections content indexed in a unified Microsoft Search index. Partner: BA Insight.
 - [Documentum (Open Text)](https://www.opentext.com/products/documentum-content-management) - Documentum content crawled via DQL with document-level security. Partners: Accenture, BA Insight (cloud + on-prem variants).
 - [Elasticsearch](https://www.elastic.co/elasticsearch) - Elastic index content crawled via user-defined queries with automatic update detection. Partner: Accenture.
-- [Enterprise Websites (Cloud)](https://learn.microsoft.com/en-us/microsoftsearch/enterprise-websites-cloud-connector) - Searches any non-SharePoint enterprise website hosted in the cloud. **`M`**
-- [Enterprise Websites (On-premises)](https://learn.microsoft.com/en-us/microsoftsearch/enterprise-websites-on-premises-connector) - Searches any non-SharePoint enterprise website on-premises. **`M`**
+- [Enterprise Websites](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery-microsoft#content-management-systems) - Non-SharePoint enterprise websites indexed for Microsoft Search (cloud + on-premises variants). **`M`**
 - [getAbstract](https://www.getabstract.com) - Indexed and licensed expert business knowledge across leadership, strategy, sales, marketing, finance, and digital transformation. **`★ Certified`** Partner: getAbstract.
 - [Guru](https://www.getguru.com) - Knowledge management platform for capturing, storing, and sharing organizational knowledge. **`M`**
 - [HP Consolidated Archive (EAS)](https://www.microfocus.com/en-us/products/structured-data-manager-archiving/overview) - Full text and metadata of HP archive documents indexed across SharePoint and other repositories. Partner: BA Insight.
 - [IBM Content Manager](https://www.ibm.com/products/content-manager) - Source security honored with full and incremental crawls of IBM CM content. Partner: BA Insight.
 - [IBM FileNet](https://www.ibm.com/products/filenet-content-manager) - FileNet repositories searched with access enforcement matching FileNet's own. Partner: BA Insight.
 - [IBM WebSphere](https://www.ibm.com/products/websphere) - Full text and metadata of WebSphere objects indexed into Microsoft Search. Partner: BA Insight.
-- [iManage Cloud](https://imanage.com/products/work-10/) - Full text and metadata of documents in iManage Work workspaces. Partner: BA Insight.
+- [iManage Cloud](https://imanage.com/products/) - Full text and metadata of documents in iManage Work workspaces. Partner: BA Insight.
 - [KMS Lighthouse Knowledge](https://www.kmslh.com) - Organizational knowledge securely indexed while preserving existing access controls. Partner: KMS Lighthouse.
 - [Lucid](https://lucid.co) - Diagramming and whiteboard documents surfaced inside Microsoft 365 with permission sync. Partner: Lucid Software.
 - [LumApps](https://www.lumapps.com) - Intranet, news, and community content integrated with Microsoft 365 inside Copilot. Partner: LumApps.
@@ -123,10 +120,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Salesforce Knowledge](https://www.salesforce.com/service/knowledge-base/) - Knowledge articles indexed for Microsoft Search. **`M`**
 - [ServiceNow Knowledge](https://www.servicenow.com/products/knowledge-management.html) - Knowledge base articles from ServiceNow instances. **`M`** Partner: ServiceNow.
 - [ServiceNow Product Documentation](https://docs.servicenow.com) - Topics from ServiceNow product documentation retrieved for AI Search. Partner: ServiceNow.
-- [SharePoint 2010](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-2010-developer-resources) - Site, document library, and list content securely indexed for the 2010 release. Partner: BA Insight.
-- [SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-2013-development-overview) - Sites, pages, lists, list items, and documents for the 2013 release. Partner: RheinInsights.
-- [SharePoint 2016](https://learn.microsoft.com/en-us/sharepoint/sharepoint-server-2016) - Sites, lists, pages, and documents for the 2016 release. Partners: BA Insight, Accenture, RheinInsights.
-- [SharePoint 2019](https://learn.microsoft.com/en-us/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019) - Sites, lists, pages, and documents for the 2019 release. Partners: BA Insight, Accenture, RheinInsights.
+- [SharePoint Server (legacy on-premises editions)](https://en.wikipedia.org/wiki/Microsoft_SharePoint_Server) - Sites, lists, pages, and documents indexed across SharePoint Server 2010 (BA Insight), 2013 (RheinInsights), 2016 (BA Insight, Accenture, RheinInsights), and 2019 (BA Insight, Accenture, RheinInsights).
 - [SharePoint Online](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - Online sites, lists, list items, attachments, and ASPX pages including multi-geo. Partners: Accenture, BA Insight, RheinInsights, ServiceNow.
 - [SharePoint Server (Subscription Edition)](https://www.microsoft.com/en-us/microsoft-365/sharepoint/sharepoint-server) - On-premises SharePoint sites connected for collaboration and management. **`M`** *(preview)* Partner: RheinInsights.
 - [Sitecore](https://www.sitecore.com) - Source security honored with full and incremental crawls of Sitecore content. Partner: BA Insight.
@@ -141,8 +135,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [West km](https://legal.thomsonreuters.com) - Transaction and litigation documents searched across West km with custom result pages. Partner: BA Insight.
 - [WordPress.com](https://wordpress.com) - Hosted WordPress sites indexed for Copilot. **`M`**
 - [WordPress.org](https://wordpress.org) - On-premises WordPress sites indexed for Copilot. **`M`**
-- [Zendesk Guide](https://www.zendesk.com/service/guide/) - Pages, comments, and attachments from Zendesk Guide instances. Partner: ServiceNow.
-- [Zenya](https://www.infoland.com) - Documents, process flows, forms, questionnaires, and information cards in Zenya quality and risk management. Partner: Infoland.
+- [Zendesk Guide](https://www.zendesk.com/service/help-center/) - Pages, comments, and attachments from Zendesk Guide instances. Partner: ServiceNow.
+- [Zenya](https://www.infoland.nl) - Documents, process flows, forms, questionnaires, and information cards in Zenya quality and risk management. Partner: Infoland.
 
 
 ## Customer relationship management
@@ -182,10 +176,10 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Bitbucket](https://bitbucket.org) - Git repository management, code review, and pull-request collaboration. **`M`** (Knowledge + Pull Requests variants)
 - [GitHub Cloud](https://github.com) - GitHub repositories indexed for issues, knowledge, and pull-request collaboration. **`M`** (Issues + Knowledge + Pull Requests variants)
-- [GitHub Server (Enterprise Server)](https://github.com/enterprise/server) - GitHub Server repositories indexed for issues, knowledge, and pull-request collaboration. **`M`** (Issues + Knowledge + Pull Requests variants)
+- [GitHub Server (Enterprise Server)](https://docs.github.com/en/enterprise-server) - GitHub Server repositories indexed for issues, knowledge, and pull-request collaboration. **`M`** (Issues + Knowledge + Pull Requests variants)
 - [GitLab Cloud](https://about.gitlab.com) - GitLab.com projects indexed for issues, knowledge, and merge-request workflows. **`M`** (Issues + Knowledge + Merge Requests variants)
 - [GitLab Self-Managed (Server)](https://about.gitlab.com/install/) - GitLab Self-Managed projects indexed for issues, knowledge, and merge-request workflows. **`M`** (Issues + Knowledge + Merge Requests variants) Partner: ServiceNow.
-- [ServiceNow AI Platform (KB articles)](https://www.servicenow.com/products/ai-platform.html) - KB article records and attachments retrieved from ServiceNow AI Platform for AI Search. Partner: ServiceNow.
+- [ServiceNow AI Platform (KB articles)](https://www.servicenow.com/platform.html) - KB article records and attachments retrieved from ServiceNow AI Platform for AI Search. Partner: ServiceNow.
 
 
 ## Files and documents
@@ -213,7 +207,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [15Five](https://www.15five.com) - High Five recognition and priority data indexed for Copilot and Microsoft Search. **`M`** (High Fives + Priorities variants)
 - [BambooHR](https://www.bamboohr.com) - People Experiences (Teams and Copilot profiles) populated with BambooHR data. **`M`**
-- [Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/viva-engage) - Messages and attachments from Viva Engage conversations retrieved for AI Search. Partner: ServiceNow.
+- [Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage) - Messages and attachments from Viva Engage conversations retrieved for AI Search. Partner: ServiceNow.
 - [SAP SuccessFactors](https://www.sap.com/products/hcm/what-is-sap-successfactors.html) - Organizational data and HR functions securely synchronized from SAP. **`M`** *(preview)*
 - [Workday](https://www.workday.com) - Organizational data and HR functions securely synchronized from Workday. **`M`** *(preview)*
 
