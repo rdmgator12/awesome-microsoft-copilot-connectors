@@ -4,11 +4,11 @@
   <img src="media/banner.svg" alt="Awesome Microsoft Copilot Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 128 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
+> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 134 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
 
-**Last updated:** May 16, 2026 | **Connectable services:** 128 | **Categories:** 16
+**Last updated:** May 22, 2026 | **Connectable services:** 134 | **Categories:** 16
 
-Microsoft 365 Copilot connectors extend the reach of Microsoft 365 Copilot and Microsoft Search by indexing external data into Microsoft Graph or querying it in real time through federated connectors. Once indexed, content from Confluence, Salesforce, ServiceNow, Google Drive, GitHub, and 100+ other services becomes retrievable inside Copilot, Microsoft Search, SharePoint, Teams, and the Microsoft 365 app.
+Microsoft 365 Copilot connectors extend the reach of Microsoft 365 Copilot and Microsoft Search by indexing external data into Microsoft Graph or querying it in real time through federated connectors. Once indexed, content from Confluence, Salesforce, ServiceNow, Google Drive, GitHub, and 100+ other services becomes retrievable inside Copilot, Microsoft Search, SharePoint, Teams, and the Microsoft 365 app. As of May 2026, Microsoft's federated connectors are GA and run on top of the Model Context Protocol (MCP) — bringing real-time data into Copilot Chat and the Researcher agent without duplicating it into Microsoft Graph.
 
 For more information, see the [Connectors documentation](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/), [Microsoft-built gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery-microsoft), [Partner-built gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery-partners), and the [Microsoft Graph connectors API](https://learn.microsoft.com/en-us/graph/connecting-external-content-connectors-overview).
 
@@ -76,25 +76,28 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Kafka](https://kafka.apache.org) - Messages fetched from a Kafka stream and submitted with optional transform. Partner: Accenture.
 - [Kinesis](https://aws.amazon.com/kinesis) - Data fetched from Amazon Kinesis Data Streams with optional transform. Partner: Accenture.
 - [LDAP Directory Services](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) - Profile search and source for early-binding security trimming in LDAP directories. Partner: RheinInsights.
-- [Linear](https://linear.app) - Streamlines issues, projects, and product roadmaps. **`M`** *(preview)*
+- [Linear](https://linear.app) - Streamlines issues, projects, and product roadmaps. **`M`** (federated GA + preview indexed)
 - [Microsoft Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - Profile search and source for early-binding security trimming. Partner: RheinInsights.
 - [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) - Profile search including Azure B2C profiles and source for early-binding security trimming. Partner: RheinInsights.
 - [Microsoft Exchange Online](https://www.microsoft.com/en-us/microsoft-365/exchange/email) - Exchange Online content retrieved across search platforms. Partner: BA Insight.
 - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) - Conversations and attachments from Teams retrieved for AI Search. Partners: BA Insight, ServiceNow.
 - [Miro](https://miro.com) - Integrates with Miro's collaborative whiteboarding platform. **`M`**
 - [Mural](https://www.mural.co) - Continuously updated Mural data indexed inside your Microsoft tenant for Copilot retrieval. Partner: Mural.
-- [Notion](https://www.notion.so) - Notes, projects, databases, pages, attachments, and wikis. **`M`** *(preview)* Partner: RheinInsights.
+- [Notion](https://www.notion.so) - Notes, projects, databases, pages, attachments, and wikis. **`M`** (federated GA) Partner: RheinInsights.
 - [Powtoon](https://www.powtoon.com) - Video creation platform content indexed with Microsoft Graph. Partner: Powtoon.
 - [Priority Matrix](https://prioritymatrix.com) - Tasks and projects from Priority Matrix surfaced in Office, Teams, and more. Partner: Priority Matrix.
 - [Shortcut Story](https://www.shortcut.com) - Manage agile software development projects with Shortcut. **`M`**
 - [Slack](https://slack.com) - Public and private channels, messages, threads, and attached files. Partners: RheinInsights, ServiceNow.
 - [TeamForge](https://www.digital.ai/products/teamforge) - Content crawled from a TeamForge server via SOAP services. Partner: Accenture.
 - [Trello](https://trello.com) - Visual project management with boards, cards, comments, and attachments. **`M`** *(preview)* Partner: RheinInsights.
+- [Zoom Meetings](https://zoom.us/meetings) - Meeting-related artifacts indexed for Copilot — transcripts, metadata, and recording references. **`M`**
 
 
 ## Content management systems
 
-- [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - AEM content crawled with document-level security and metadata extraction. **`M`** *(preview)* Partner: Accenture.
+- [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - AEM content crawled with document-level security and metadata extraction. Partner: Accenture.
+- [Adobe Experience Manager Assets](https://business.adobe.com/products/experience-manager/assets.html) - Published assets from your AEM Assets instance indexed into Microsoft 365 experiences. **`M`** *(preview)*
+- [Adobe Experience Manager Sites](https://business.adobe.com/products/experience-manager/sites.html) - Published assets from your AEM Sites instance indexed into Microsoft 365 experiences. **`M`** *(preview)*
 - [Bentley AssetWise](https://www.bentley.com/en/products/brands/assetwise) - Asset-lifecycle content surfaced in a consolidated Microsoft Search index. Partner: BA Insight.
 - [Coda Enterprise](https://coda.io) - Workflow management and team collaboration via Coda. **`M`**
 - [CuadraSTAR](https://lucidea.com/cuadrastar/) - Library and special-collections content indexed in a unified Microsoft Search index. Partner: BA Insight.
@@ -141,7 +144,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Customer relationship management
 
-- [HubSpot](https://www.hubspot.com) - Customer data and sales pipelines managed from Copilot. **`M`** *(preview)*
+- [HubSpot](https://www.hubspot.com) - Customer data and sales pipelines managed from Copilot. **`M`** (federated GA + preview indexed)
 - [Microsoft Dynamics 365](https://www.microsoft.com/en-us/dynamics-365) - Knowledge articles, cases, posts, notes, contacts, accounts, sales orders, and opportunities. Partners: BA Insight (on-prem + cloud), RheinInsights.
 - [Salesforce](https://www.salesforce.com) - Sales, Service, and Marketing Cloud content including Chatter feeds. Partners: Accenture, BA Insight.
 - [Salesforce CRM](https://www.salesforce.com/sales/) - Contacts, opportunities, leads, and accounts. **`M`**
@@ -207,6 +210,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [15Five](https://www.15five.com) - High Five recognition and priority data indexed for Copilot and Microsoft Search. **`M`** (High Fives + Priorities variants)
 - [BambooHR](https://www.bamboohr.com) - People Experiences (Teams and Copilot profiles) populated with BambooHR data. **`M`**
+- [Credly](https://www.credly.com) - Digital credential data integrated into Microsoft 365 People Experiences. **`M`** *(preview)*
 - [Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage) - Messages and attachments from Viva Engage conversations retrieved for AI Search. Partner: ServiceNow.
 - [SAP SuccessFactors](https://www.sap.com/products/hcm/what-is-sap-successfactors.html) - Organizational data and HR functions securely synchronized from SAP. **`M`** *(preview)*
 - [Workday](https://www.workday.com) - Organizational data and HR functions securely synchronized from Workday. **`M`** *(preview)*
@@ -217,7 +221,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Freshservice](https://www.freshworks.com/freshservice) - IT service management integrated with Microsoft 365. **`M`**
 - [Git (repositories)](https://git-scm.com) - Branches, versioned files, and commit messages indexed from remote Git repositories. Partner: RheinInsights.
 - [LDAP (general)](https://datatracker.ietf.org/doc/html/rfc4511) - LDAP-compliant directories indexed with field filtering for users, contracts, or groups. Partners: BA Insight, ServiceNow.
-- [PagerDuty](https://www.pagerduty.com) - Escalation policies and schedules indexed and searched. **`M`** (Escalation Policies + Schedules variants)
+- [PagerDuty](https://www.pagerduty.com) - Escalation policies, incidents, and schedules indexed and searched. **`M`** (Escalation Policies + Incidents + Schedules variants)
 - [ServiceNow](https://www.servicenow.com) - Catalog items and ticketing data crawled for AI Search and Copilot. **`M`** (Catalog + Tickets variants) Partners: Accenture, BA Insight.
 
 
@@ -261,10 +265,14 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Others
 
-- [Canva](https://www.canva.com) - Design presentations and social media graphics. **`M`** *(preview)*
-- [Google Calendar](https://calendar.google.com) - Schedule, manage, and share meetings. **`M`** *(preview)*
-- [Google Contacts](https://contacts.google.com) - Contact information organization. **`M`** *(preview)*
-- [Intercom](https://www.intercom.com) - Customer conversations, support tickets, and user engagement. **`M`** *(preview)*
+Federated connectors (real-time, MCP-backed) — generally available as of May 2026.
+
+- [Canva](https://www.canva.com) - Design presentations and social media graphics. **`M`**
+- [Google Calendar](https://calendar.google.com) - Schedule, manage, and share meetings. **`M`**
+- [Google Contacts](https://contacts.google.com) - Contact information organization. **`M`**
+- [Intercom](https://www.intercom.com) - Customer conversations, support tickets, and user engagement. **`M`**
+- [LSEG](https://www.lseg.com) - London Stock Exchange Group financial-data platform — real-time market data, analytics, and valuation tools surfaced into Copilot Chat and the Researcher agent. **`M`**
+- [Moody's](https://www.moodys.com) - Decision-grade credit intelligence — credit ratings, research, entity data, and risk insights via a dedicated Moody's agent in Copilot. **`M`**
 
 
 ## Related
