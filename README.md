@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Microsoft Copilot Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 134 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
+> A comprehensive directory of every connector in Microsoft's official [Microsoft 365 Copilot connectors gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery) - 158 verified data sources covered by Microsoft-built and partner-built connectors, organized by category.
 
-**Last updated:** May 22, 2026 | **Connectable services:** 134 | **Categories:** 16
+**Last updated:** June 5, 2026 | **Connectable services:** 158 | **Categories:** 16
 
 Microsoft 365 Copilot connectors extend the reach of Microsoft 365 Copilot and Microsoft Search by indexing external data into Microsoft Graph or querying it in real time through federated connectors. Once indexed, content from Confluence, Salesforce, ServiceNow, Google Drive, GitHub, and 100+ other services becomes retrievable inside Copilot, Microsoft Search, SharePoint, Teams, and the Microsoft 365 app. As of May 2026, Microsoft's federated connectors are GA and run on top of the Model Context Protocol (MCP) — bringing real-time data into Copilot Chat and the Researcher agent without duplicating it into Microsoft Graph.
 
@@ -23,11 +23,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Microsoft Corporation. "Microsoft", "Microsoft 365", "Copilot", and related marks are property of Microsoft Corporation. Each connector is the property of its respective publisher.
 
 > [!TIP]
-> ### Connector of the Week - May 16, 2026
+> ### Connector of the Week - June 5, 2026
 >
-> **[NetApp](https://www.netapp.com)** · *Files and documents*
+> **[IBM Cloud Connector](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b)** · *Collaboration and communication*
 >
-> The NetApp connector is the quiet sleeper pick in this week's gallery. It lets organizations connect their NetApp ONTAP files - on-premises, on Azure, on AWS, on GCP, or virtual - directly to Microsoft 365 Copilot without moving the data, without re-platforming, without breaking existing access controls. That's a real enterprise-data-gravity story most people don't know exists. The strategic significance isn't "another file connector" - it's that one of the largest sources of unstructured enterprise file data on the planet (NetApp ONTAP runs petabytes inside every Fortune 500) is now query-able from Copilot in place. For organizations that built their last decade on ONTAP and are now asked to make that content AI-retrievable without a data-migration project, this is the answer that ships today. Pairs naturally with Nasuni and the Microsoft-built Azure File Share and Amazon S3 connectors for full-coverage file-tier retrieval.
+> Of the two additions, this is the stronger pick. It brings IBM Connections Cloud into the gallery alongside the existing on-prem IBM Connections entry - closing the cloud/on-prem gap for one of the largest enterprise social-collaboration platforms (files, blogs, wikis, forums, communities, profiles, status updates) without re-platforming. It's a genuine enterprise-data-gravity story rather than a duplicate-value entry. By contrast the ITSM connector's value prop (LDAP directory indexing across Entra ID / eDirectory) largely overlaps the existing LDAP (general) entry, so it's less novel as a feature pick.
 
 ---
 
@@ -70,6 +70,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [GitHub Enterprise Cloud](https://github.com/enterprise) - Indexes repositories, versioned files, wikis, issues, and discussions. Partner: RheinInsights.
 - [Google Drive](https://www.google.com/drive) - Files, folders, comments, and shared-drive content indexed for Copilot. **`M`** Partners: BA Insight, RheinInsights, ServiceNow.
 - [Google Mail](https://www.google.com/gmail) - Emails and attachments from Gmail indexed with permission support. Partner: RheinInsights.
+- [IBM Cloud Connector](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery-partners#collaboration-and-communication) - Securely indexes files, blogs, wikis, forums, communities, profiles, and status updates from IBM Connections Cloud so they're searchable through Copilot and Microsoft Graph. **`M`**
 - [IBM Connections](https://www.ibm.com/cloud) - Public and personal files, blogs, wikis, forums, communities, and profiles. Partners: Accenture, ServiceNow.
 - [iManage Work](https://imanage.com) - Document management content indexed with security enforcement and no client install. Partner: BA Insight.
 - [Jive](https://www.jivesoftware.com) - Documents stored in Jive Community spaces, groups, projects, and blogs. Partner: Accenture.
@@ -220,6 +221,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Freshservice](https://www.freshworks.com/freshservice) - IT service management integrated with Microsoft 365. **`M`**
 - [Git (repositories)](https://git-scm.com) - Branches, versioned files, and commit messages indexed from remote Git repositories. Partner: RheinInsights.
+- [ITSM connector](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/connectors-gallery-partners#it-service-management-tools) - Securely indexes LDAP objects from Microsoft Entra ID, Novell eDirectory, and other LDAP-compatible directory services so they're searchable through Copilot and Microsoft Graph. **`M`**
 - [LDAP (general)](https://datatracker.ietf.org/doc/html/rfc4511) - LDAP-compliant directories indexed with field filtering for users, contracts, or groups. Partners: BA Insight, ServiceNow.
 - [PagerDuty](https://www.pagerduty.com) - Escalation policies, incidents, and schedules indexed and searched. **`M`** (Escalation Policies + Incidents + Schedules variants)
 - [ServiceNow](https://www.servicenow.com) - Catalog items and ticketing data crawled for AI Search and Copilot. **`M`** (Catalog + Tickets variants) Partners: Accenture, BA Insight.
